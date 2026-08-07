@@ -133,8 +133,7 @@ coordonnées.
 Chaque salle est dotée d'un repère orthonormé, dont l'unité vaut une
 case. L'origine de ce repère est située dans le coin inférieur gauche
 lorsque la salle est orientée de manière à ce que son numéro puisse
-être lu. Par exemple, le repère de la salle `[1, "anti-horaire"]` est
-:
+être lu. Par exemple, le repère de la salle `[1, "horaire"]` est :
 
 ![Coordonnées au sein d'une salle](docs/room_coordinates_example.png)
 
