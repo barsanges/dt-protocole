@@ -1,0 +1,18 @@
+{
+    "type de transition": "saut",
+    "agent":
+    {
+        "personnage": "Clerc",
+        "couleur": "bleu",
+        "emplacement":
+        {
+            "salle": "g",
+            "coordonnées": [3, 2]
+        }
+    },
+    "emplacement d'arrivée":
+    {
+        "salle": "g",
+        "coordonnées": [3, 4]
+    }
+}

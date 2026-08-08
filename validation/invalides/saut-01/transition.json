@@ -1,0 +1,18 @@
+{
+    "type de transition": "saut",
+    "agent":
+    {
+        "personnage": "Guerrier",
+        "couleur": "jaune",
+        "emplacement":
+        {
+            "salle": "g",
+            "coordonnées": [3, 4]
+        }
+    },
+    "emplacement d'arrivée":
+    {
+        "salle": "g",
+        "coordonnées": [3, 2]
+    }
+}
