@@ -179,8 +179,8 @@
             "nature": "Clerc",
             "emplacement":
             {
-                "salle": "g",
-                "coordonnées": [3, 2]
+                "salle": "Zone de départ bleue",
+                "coordonnées": [0, 1]
             },
             "blessé": false
         },
@@ -246,8 +246,7 @@
             "nature": "Voleuse",
             "emplacement":
             {
-                "salle": "Zone de départ bleue",
-                "coordonnées": [0, 1]
+                "salle": "c"
             },
             "blessé": false
         },
@@ -275,7 +274,8 @@
             "nature": "Guerrier",
             "emplacement":
             {
-                "salle": "c"
+                "salle": "g",
+                "coordonnées": [3, 2]
             },
             "blessé": false
         },
@@ -351,8 +351,7 @@
             "nature": "Corde",
             "emplacement":
             {
-                "salle": "g",
-                "coordonnées": [3, 4]
+                "salle": "c"
             }
         },
         {
@@ -401,7 +400,7 @@
             "emplacement":
             {
                 "salle": "g",
-                "emplacement": [0, 0]
+                "coordonnées": [0, 0]
             }
         },
         {
@@ -410,7 +409,7 @@
             "emplacement":
             {
                 "salle": "g",
-                "emplacement": [0, 1]
+                "coordonnées": [1, 0]
             }
         },
         {
@@ -449,13 +448,13 @@
     {
         "main":
         {
-            "cartes sauts": 3,
+            "cartes sauts": 2,
             "cartes actions": [2, 3, 4, 5],
             "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
         },
         "défausse":
         {
-            "cartes sauts": 0,
+            "cartes sauts": 1,
             "cartes actions": [],
             "cartes de combat": []
         }
@@ -463,9 +462,9 @@
     "déroulé":
     {
         "scénario": "standard",
-        "joueur résolvant": "bleu",
+        "joueur résolvant": "jaune",
         "premier joueur": "bleu",
-        "joueur actif": "bleu",
+        "joueur actif": "jaune",
         "tour": 1,
         "actions restantes": 2
     }

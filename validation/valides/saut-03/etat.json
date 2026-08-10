@@ -463,6 +463,10 @@
     "déroulé":
     {
         "scénario": "standard",
-        "joueur résolvant": "bleu"
+        "joueur résolvant": "bleu",
+        "premier joueur": "bleu",
+        "joueur actif": "bleu",
+        "tour": 1,
+        "actions restantes": 2
     }
 }
