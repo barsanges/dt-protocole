@@ -1,0 +1,18 @@
+{
+    "type de transition": "saut",
+    "agent":
+    {
+        "personnage": "Méchanork",
+        "couleur": "jaune",
+        "emplacement":
+        {
+            "salle": "a",
+            "coordonnées": [3, 2]
+        }
+    },
+    "emplacement d'arrivée":
+    {
+        "salle": "b",
+        "coordonnées": [4, 2]
+    }
+}

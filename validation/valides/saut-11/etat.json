@@ -1,0 +1,86 @@
+{
+    "salles":
+    {
+        "a":
+        {
+            "référence": [1, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice":  [[0, -1],
+                                 [1,  0]],
+                    "vecteur": [4, 0]
+                },
+                "translation": [11, 0]
+            }
+        },
+        "b":
+        {
+            "référence": [3, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice":  [[ 0, 1],
+                                 [-1, 0]],
+                    "vecteur": [0, 4]
+                },
+                "translation": [11, 5]
+            }
+        }
+    },
+    "personnages":
+    [
+        {
+            "couleur": "jaune",
+            "nature": "Méchanork",
+            "emplacement":
+            {
+                "salle": "a",
+                "coordonnées": [3, 2]
+            },
+            "blessé": false
+        }
+    ],
+    "objets": [],
+    "cartes bleues":
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [],
+            "cartes de combat": []
+        }
+    },
+    "cartes jaunes":
+    {
+        "main":
+        {
+            "cartes sauts": 2,
+            "cartes actions": [],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 1,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": []
+        }
+    },
+    "déroulé":
+    {
+        "scénario": "exemple",
+        "joueur résolvant": "jaune",
+        "premier joueur": "bleu",
+        "joueur actif": "jaune",
+        "tour": 18,
+        "actions restantes": 3
+    }
+}

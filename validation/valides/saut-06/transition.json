@@ -1,0 +1,19 @@
+{
+    "type de transition": "saut",
+    "agent":
+    {
+        "personnage": "Gobelin",
+        "couleur": "bleu",
+        "emplacement":
+        {
+            "salle": "a",
+            "coordonnées": [0, 2]
+        }
+    },
+    "emport": "Troll",
+    "emplacement d'arrivée":
+    {
+        "salle": "a",
+        "coordonnées": [1, 3]
+    }
+}

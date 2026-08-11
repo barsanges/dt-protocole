@@ -1,0 +1,18 @@
+{
+    "type de transition": "saut",
+    "agent":
+    {
+        "personnage": "Paladin",
+        "couleur": "bleu",
+        "emplacement":
+        {
+            "salle": "a",
+            "coordonnées": [0, 2]
+        }
+    },
+    "emplacement d'arrivée":
+    {
+        "salle": "a",
+        "coordonnées": [1, 3]
+    }
+}
