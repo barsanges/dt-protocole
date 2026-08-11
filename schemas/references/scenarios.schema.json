@@ -4,7 +4,11 @@
     "oneOf":
     [
         {
-            "const": "standard"
+            "enum":
+            [
+                "exemple",
+                "standard"
+            ]
         }
     ]
 }
