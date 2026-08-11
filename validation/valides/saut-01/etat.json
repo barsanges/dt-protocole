@@ -35,13 +35,13 @@
         "main":
         {
             "cartes sauts": 3,
-            "cartes actions": [2, 3, 4, 5],
+            "cartes actions": [3, 4, 5],
             "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
         },
         "défausse":
         {
             "cartes sauts": 0,
-            "cartes actions": [],
+            "cartes actions": [2],
             "cartes de combat": []
         }
     },
@@ -50,14 +50,14 @@
         "main":
         {
             "cartes sauts": 3,
-            "cartes actions": [2, 3, 4, 5],
+            "cartes actions": [2, 4, 5],
             "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
         },
         "défausse":
         {
             "cartes sauts": 0,
             "cartes actions": [],
-            "cartes de combat": []
+            "cartes de combat": [3]
         }
     },
     "déroulé":
