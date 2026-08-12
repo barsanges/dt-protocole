@@ -16,6 +16,8 @@ Twister](https://boardgamegeek.com/boardgame/12995/dungeon-twister).
       notions d'état et de transition, et la distinction action /
       transition.
 
+- [ ] Réorganiser le dossier `validation`.
+
 - [ ] Rajouter un scénario "initiation" (jeu de base, en 6 salles, 5
       PV, sans le Méchanork, la Passe-muraille, la potion de vitesse
       ni l'armure).
