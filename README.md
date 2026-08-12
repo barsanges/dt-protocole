@@ -2,8 +2,33 @@
 
 Ce dépôt propose des schémas JSON pour communiquer l'état et
 l'évolution d'une partie de [Dungeon
-Twister](https://boardgamegeek.com/boardgame/12995/dungeon-twister). Plus
-précisément, ces schémas couvrent :
+Twister](https://boardgamegeek.com/boardgame/12995/dungeon-twister).
+
+## À faire
+
+- [ ] Réécrire complétement le README.
+
+	- [ ] Présenter le dossier `validation` dans le README.
+
+	- [ ] Déplacer les éléments du manuel dans `docs`.
+
+- [ ] Expliquer quelque part (dans le README ou dans le manuel ?) les
+      notions d'état et de transition, et la distinction action /
+      transition.
+
+- [ ] Rajouter un scénario "initiation" (jeu de base, en 6 salles, 5
+      PV, sans le Méchanork, la Passe-muraille, la potion de vitesse
+      ni l'armure).
+
+- [ ] Rajouter dans `etat.schema.json` la cible de points de victoire
+      utilisée pour la partie.
+
+- [ ] Harmoniser les termes `couleur` et `appartenance` dans les
+      schémas.
+
+## Contenu
+
+Plus précisément, ces schémas couvrent :
 
   * le référencement des éléments du jeu :
 
