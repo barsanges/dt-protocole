@@ -25,8 +25,8 @@ Twister](https://boardgamegeek.com/boardgame/12995/dungeon-twister).
 - [ ] Rajouter dans `etat.schema.json` la cible de points de victoire
       utilisée pour la partie.
 
-- [ ] Harmoniser les termes `couleur` et `appartenance` dans les
-      schémas.
+- [ ] Harmoniser les termes dans les schémas, notamment `couleur` et
+      `appartenance`, et `nature` et `personnage`.
 
 ## Contenu
 
