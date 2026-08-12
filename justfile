@@ -7,5 +7,5 @@ metaschema schema:
 test:
     jsonschema test test/ --extension test.json --resolve schemas/ --extension schema.json
     find validation/ -type f -name etat.json -exec jsonschema validate schemas/etat.schema.json '{}' ';'
-    find validation/ -type f -name etat.json -exec jsonschema validate schemas/etat.schema.json '{}' ';'
+    find validation/ -type f -name resultat.json -exec jsonschema validate schemas/etat.schema.json '{}' ';'
     find validation/ -type f -name transition.json -exec jsonschema validate schemas/transitions/transition.schema.json '{}' ';'
