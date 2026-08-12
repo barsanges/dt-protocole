@@ -8,7 +8,7 @@
             "required": ["type de transition"]
         },
         {
-            "anyOf":
+            "oneOf":
             [
                 {
                     "$ref": "saut.schema.json"
