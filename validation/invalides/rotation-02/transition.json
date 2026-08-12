@@ -1,0 +1,15 @@
+{
+    "type de transition": "rotation",
+    "agent":
+    {
+        "personnage": "Troll",
+        "couleur": "jaune",
+        "emplacement":
+        {
+            "salle": "a",
+            "coordonnées": [2, 2]
+        }
+    },
+    "salle concernée": "b",
+    "rotation dans le sens horaire": false
+}

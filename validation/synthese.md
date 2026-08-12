@@ -32,3 +32,24 @@
 | saut-08 | Le Paladin ne peut pas sauter en laissant deux objets derrière lui |
 | saut-09 | Un personnage ne peut pas traverser un mur en sautant |
 | saut-10 | Un personnage ne peut pas sauter plus d'une case |
+
+## Rotation
+
+### Valides
+
+| Identifiant | Description |
+|-------------|-------------|
+| rotation-01 | Un personnage peut faire tourner une salle d'un quart de tour dans son sens de rotation |
+| rotation-02 | Un personnage peut faire tourner l'autre salle de la paire d'un quart de tour dans son sens de rotation |
+| rotation-03 | Un personnage peut faire tourner n'importe quelle salle ayant le même numéro (i.e. la paire de salle est présente deux fois) d'un quart de tour dans son sens de rotation |
+| rotation-04 | Le Méchanork peut faire tourner une salle d'un quart de tour dans son sens de rotation |
+| rotation-05 | Le Méchanork peut faire tourner une salle d'un quart de tour à l'inverse de son sens de rotation |
+| rotation-06 | Le Méchanork peut faire tourner l'autre salle de la paire d'un quart de tour à l'inverse de son sens de rotation |
+
+### Invalides
+
+| Identifiant | Description |
+|-------------|-------------|
+| rotation-01 | Un personnage ne peut pas faire tourner une salle à l'inverse de son sens de rotation |
+| rotation-02 | Un personnage ne peut pas faire tourner une salle qui n'a pas le même numéro |
+| rotation-03 | Un personnage ne peut pas faire tourner une salle s'il n'est pas sur le mécanisme de rotation |
