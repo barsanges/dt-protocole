@@ -21,11 +21,23 @@
         }
     },
     "cartes jaunes":
-    {},
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [],
+            "cartes de combat": []
+        }
+    },
     "déroulé":
     {
         "scénario": "standard",
-        "joueur résolvant": "bleu",
-        "décision attendue": "Choix d'une carte action"
+        "joueur résolvant": "bleu"
     }
 }

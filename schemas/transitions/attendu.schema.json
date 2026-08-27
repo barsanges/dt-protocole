@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Le type de décision attendue étant donné l'état de la partie",
+    "enum":
+    [
+        "Choix d'une carte action",
+        "Choix d'une action",
+        "Placement initial sur la zone de départ",
+        "Placement initial dans le labyrinthe"
+    ]
+}

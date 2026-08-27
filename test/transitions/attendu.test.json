@@ -1,0 +1,31 @@
+{
+    "target": "../../schemas/transitions/attendu.schema.json",
+    "tests":
+    [
+        {
+            "description": "known expected transitions are valid",
+            "valid": true,
+            "data": "Choix d'une carte action"
+        },
+        {
+            "description": "only known expected transitions are valid",
+            "valid": false,
+            "data": true
+        },
+        {
+            "description": "case is important",
+            "valid": false,
+            "data": "choix d'une carte action"
+        },
+        {
+            "description": "null is not valid",
+            "valid": false,
+            "data": null
+        },
+        {
+            "description": "the empty object is not valid",
+            "valid": false,
+            "data": {}
+        }
+    ]
+}

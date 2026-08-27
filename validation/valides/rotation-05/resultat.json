@@ -63,11 +63,10 @@
     "déroulé":
     {
         "scénario": "exemple",
-        "joueur résolvant": "jaune",
+        "joueur résolvant": "bleu",
         "premier joueur": "bleu",
-        "joueur actif": "jaune",
-        "tour": 5,
-        "actions restantes": 1
+        "joueur actif": "bleu",
+        "tour": 6,
+        "décision attendue": "Choix d'une carte action"
     }
-
 }

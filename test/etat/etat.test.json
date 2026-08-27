@@ -28,6 +28,11 @@
             "dataPath": "etat-invalide-04.json"
         },
         {
+            "description": "the field déroulé/décision attendue is mandatory",
+            "valid": false,
+            "dataPath": "etat-invalide-05.json"
+        },
+        {
             "description": "the field déroulé/joueur résolvant can be an array",
             "valid": true,
             "dataPath": "etat-valide-02.json"

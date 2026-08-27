@@ -38,6 +38,7 @@
     "déroulé":
     {
         "scénario": "standard",
-        "joueur résolvant": ["bleu", "jaune"]
+        "joueur résolvant": ["bleu", "jaune"],
+        "décision attendue": "Placement initial sur la zone de départ"
     }
 }

@@ -37,6 +37,7 @@
     },
     "déroulé":
     {
-        "joueur résolvant": "bleu"
+        "joueur résolvant": "bleu",
+        "décision attendue": "Choix d'une carte action"
     }
 }

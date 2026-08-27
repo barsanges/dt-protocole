@@ -214,6 +214,7 @@
     "déroulé":
     {
         "scénario": "standard",
-        "joueur résolvant": "bleu"
+        "joueur résolvant": ["bleu", "jaune"],
+        "décision attendue": "Placement initial sur la zone de départ"
     }
 }

@@ -172,12 +172,17 @@
                 {
                     "type": "integer",
                     "minimum": 0
+                },
+                "décision attendue":
+                {
+                    "$ref": "transitions/attendu.schema.json"
                 }
             },
             "required":
             [
                 "scénario",
-                "joueur résolvant"
+                "joueur résolvant",
+                "décision attendue"
             ]
         }
     },

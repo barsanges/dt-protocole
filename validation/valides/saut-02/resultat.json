@@ -78,6 +78,7 @@
         "premier joueur": "bleu",
         "joueur actif": "bleu",
         "tour": 1,
-        "actions restantes": 1
+        "actions restantes": 1,
+        "décision attendue": "Choix d'une action"
     }
 }

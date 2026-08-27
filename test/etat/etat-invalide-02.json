@@ -37,6 +37,7 @@
     },
     "déroulé":
     {
-        "scénario": "standard"
+        "scénario": "standard",
+        "décision attendue": "Choix d'une carte action"
     }
 }
