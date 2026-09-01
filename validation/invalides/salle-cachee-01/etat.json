@@ -40,7 +40,7 @@
         {
             "couleur": "bleu",
             "nature": "Gobelin",
-            "position":
+            "emplacement":
             {
                 "salle": "a",
                 "coordonnées": [2, 2]
@@ -50,7 +50,7 @@
         {
             "couleur": "jaune",
             "nature": "Méchanork",
-            "position":
+            "emplacement":
             {
                 "salle": "b",
                 "coordonnées": [3, 2]
