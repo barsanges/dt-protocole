@@ -1,0 +1,220 @@
+{
+    "salles":
+    {
+        "Zone de départ bleue":
+        {
+            "référence": "Zone de départ bleue",
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [0, 0]
+            }
+        },
+        "Zone de départ jaune":
+        {
+            "référence": "Zone de départ jaune",
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [22, 0]
+            }
+        },
+        "a":
+        {
+            "référence": [1, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [1, 0]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "b":
+        {
+            "référence": [2, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [6, 0]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "c":
+        {
+            "référence": [1, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [12, 0]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "d":
+        {
+            "référence": [3, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [17, 0]
+            }
+        },
+        "e":
+        {
+            "référence": [2, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [1, 5]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "f":
+        {
+            "référence": [4, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [6, 5]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "g":
+        {
+            "référence": [3, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [12, 5]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        },
+        "h":
+        {
+            "référence": [4, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice": [[1, 0],
+                                [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [17, 5]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        }
+    },
+    "personnages":
+    [],
+    "objets":
+    [],
+    "cartes bleues":
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [],
+            "cartes de combat": []
+        }
+    },
+    "cartes jaunes":
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [],
+            "cartes de combat": []
+        }
+    },
+    "déroulé":
+    {
+        "scénario": "standard",
+        "joueur résolvant": ["bleu", "jaune"],
+        "décision attendue": "Placement initial sur la zone de départ"
+    }
+}

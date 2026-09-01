@@ -67,3 +67,13 @@
 | Identifiant | Description |
 |-------------|-------------|
 | passer-01 | Il est interdit de passer son tour pendant la mise en place |
+
+### Scénario standard
+
+### Invalides
+
+| Identifiant | Description |
+|-------------|-------------|
+| standard-01 | La géométrie du labyrinthe est fixée dans le scénario standard |
+| standard-02 | Les zones de départ sont indispensables dans le scénario standard |
+| standard-03 | Le labyrinthe doit être connexe dans le scénario standard |
