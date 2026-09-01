@@ -8,9 +8,9 @@
             {
                 "rotation":
                 {
-                    "matrice":  [[0, 1],
-                                 [1, 0]],
-                    "vecteur": [0, 0]
+                    "matrice":  [[ 0, 1],
+                                 [-1, 0]],
+                    "vecteur": [0, 4]
                 },
                 "translation": [0, 0]
             }
