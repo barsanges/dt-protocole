@@ -53,3 +53,17 @@
 | rotation-01 | Un personnage ne peut pas faire tourner une salle à l'inverse de son sens de rotation |
 | rotation-02 | Un personnage ne peut pas faire tourner une salle qui n'a pas le même numéro |
 | rotation-03 | Un personnage ne peut pas faire tourner une salle s'il n'est pas sur le mécanisme de rotation |
+
+## Passer
+
+### Valides
+
+| Identifiant | Description |
+|-------------|-------------|
+| passer-01 | Passer termine le tour du joueur courant et initie le tour du joueur adverse |
+
+### Invalides
+
+| Identifiant | Description |
+|-------------|-------------|
+| passer-01 | Il est interdit de passer son tour pendant la mise en place |

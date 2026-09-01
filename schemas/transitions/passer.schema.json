@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "L'action de passer son tour ou la fin de son tour",
+    "type": "object",
+    "properties":
+    {
+        "type de transition":
+        {
+            "const": "passer"
+        }
+    },
+    "required":
+    [
+        "type de transition"
+    ]
+}

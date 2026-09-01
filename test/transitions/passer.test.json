@@ -1,0 +1,41 @@
+{
+    "target": "../../schemas/transitions/passer.schema.json",
+    "tests":
+    [
+        {
+            "description": "passer is a transition",
+            "valid": true,
+            "data":
+            {
+                "type de transition": "passer"
+            }
+        },
+        {
+            "description": "case is relevant",
+            "valid": false,
+            "data":
+            {
+                "type de transition": "Passer"
+            }
+        },
+        {
+            "description": "unknown fields are ignored",
+            "valid": true,
+            "data":
+            {
+                "type de transition": "passer",
+                "commentaire": "un commentaire"
+            }
+        },
+        {
+            "description": "null is not valid",
+            "valid": false,
+            "data": null
+        },
+        {
+            "description": "the empty object is not valid",
+            "valid": false,
+            "data": {}
+        }
+    ]
+}

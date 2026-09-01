@@ -15,6 +15,9 @@
                 },
                 {
                     "$ref": "rotation.schema.json"
+                },
+                {
+                    "$ref": "passer.schema.json"
                 }
             ]
         }
