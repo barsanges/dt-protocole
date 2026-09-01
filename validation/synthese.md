@@ -77,3 +77,19 @@
 | standard-01 | La géométrie du labyrinthe est fixée dans le scénario standard |
 | standard-02 | Les zones de départ sont indispensables dans le scénario standard |
 | standard-03 | Le labyrinthe doit être connexe dans le scénario standard |
+
+## Salle cachée
+
+### Invalides
+
+| Identifiant | Description |
+|-------------|-------------|
+| salle-cachee-01 | Un personnage ne peut pas avoir d'emplacement dans une salle qui n'a pas encore été révélée |
+
+## Salle inconnue
+
+### Invalides
+
+| Identifiant | Description |
+|-------------|-------------|
+| salle-inconnue-01 | Un personnage ne peut pas être placé dans une salle qui n'existe pas dans le labyrinthe |

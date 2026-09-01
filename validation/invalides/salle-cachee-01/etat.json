@@ -1,0 +1,102 @@
+{
+    "salles":
+    {
+        "a":
+        {
+            "référence": [1, "horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice":  [[1, 0],
+                                 [0, 1]],
+                    "vecteur": [0, 0]
+                },
+                "translation": [0, 0]
+            }
+        },
+        "b":
+        {
+            "référence": [1, "anti-horaire"],
+            "position":
+            {
+                "rotation":
+                {
+                    "matrice":  [[-1,  0],
+                                 [ 0, -1]],
+                    "vecteur": [4, 4]
+                },
+                "translation": [5, 0]
+            },
+            "la salle est cachée":
+            {
+                "la référence est connue de": [],
+                "l'orientation est connue de": []
+            }
+        }
+    },
+    "personnages":
+    [
+        {
+            "couleur": "bleu",
+            "nature": "Gobelin",
+            "position":
+            {
+                "salle": "a",
+                "coordonnées": [2, 2]
+            },
+            "blessé": false
+        },
+        {
+            "couleur": "jaune",
+            "nature": "Méchanork",
+            "position":
+            {
+                "salle": "b",
+                "coordonnées": [3, 2]
+            },
+            "blessé": false
+        }
+    ],
+    "objets": [],
+    "cartes bleues":
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [2],
+            "cartes de combat": []
+        }
+    },
+    "cartes jaunes":
+    {
+        "main":
+        {
+            "cartes sauts": 3,
+            "cartes actions": [2, 3, 4, 5],
+            "cartes de combat": [0, 1, 2, 2, 3, 3, 4, 5, 6]
+        },
+        "défausse":
+        {
+            "cartes sauts": 0,
+            "cartes actions": [],
+            "cartes de combat": []
+        }
+    },
+    "déroulé":
+    {
+        "scénario": "exemple",
+        "joueur résolvant": "bleu",
+        "premier joueur": "bleu",
+        "joueur actif": "bleu",
+        "tour": 1,
+        "actions restantes": 2,
+        "décision attendue": "Choix d'une action"
+    }
+}
